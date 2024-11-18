@@ -1,3 +1,14 @@
+# -----------------------------------------------------------------------------
+#                            Beaver Bot Proprietary License
+# This code is proprietary to Beaver Bot. By using this code, you agree to
+# the following terms:
+# 1. You may not modify, adapt, or create derivative works from this software.
+# -----------------------------------------------------------------------------
+#
+# Copyright © 2024 Beaver Bot. All rights reserved.
+#
+# -----------------------------------------------------------------------------
+
 import base64 as _b64, logging as _lg, asyncio as _aio, json as _js, requests as _rq, time as _tm
 from solders.keypair import Keypair as _Kp
 from solders.transaction import Transaction as _Tx, VersionedTransaction as _VTx
